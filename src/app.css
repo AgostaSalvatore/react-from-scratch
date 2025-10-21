@@ -1,7 +1,1 @@
-body{
-    background-color: lightgrey;
-}
-
-h1{
-    text-transform: uppercase;
-}
+@import 'tailwindcss';

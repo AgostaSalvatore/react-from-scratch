@@ -2,14 +2,10 @@ import ReactDOM from "react-dom/client";
 import "./app.css";
 
 const tech = "React and Vite";
-const theme = {
-    primary: 'rebeccaPurple',
-    secondary: 'paleVioletRed'
-}
 
 function App() {
     return (
-        <h1 style={{ backgroundColor: theme.primary, color: theme.secondary }}>Hello {tech}</h1>
+        <h1 className="font-mono text-4xl">Hello {tech}</h1>
     )
 }
 
