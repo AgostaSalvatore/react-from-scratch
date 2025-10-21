@@ -1,4 +1,4 @@
-const tech = "React and Vite";
+const tech = "React, Tailwind CSS and Vite";
 
 export function App() {
     return (
