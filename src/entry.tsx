@@ -10,10 +10,10 @@ import { App } from "./App";
 
 // Creazione del root dell'applicazione e rendering del componente App
 // StrictMode attiva controlli aggiuntivi e avvisi per aiutare nello sviluppo
-createRoot(document.getElementById('app')).render(
-    <StrictMode>
-        <App />
-    </StrictMode>
+createRoot(document.getElementById("app")).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
 );
 
 /*

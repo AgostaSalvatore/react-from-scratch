@@ -1,12 +1,12 @@
 // Componente container per centrare e limitare la larghezza del contenuto
 export function Container({ children }) {
-    return (
-        // Div con larghezza massima centrato e padding responsivo
-        <div className="mx-auto max-w-5xl p-4 md:p-8">
-            {/* Renderizza tutti i componenti figli */}
-            {children}
-        </div>
-    )
+  return (
+    // Div con larghezza massima centrato e padding responsivo
+    <div className="mx-auto max-w-5xl p-4 md:p-8">
+      {/* Renderizza tutti i componenti figli */}
+      {children}
+    </div>
+  );
 }
 
 /*

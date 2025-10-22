@@ -1,12 +1,12 @@
 // Componente wrapper principale che definisce lo sfondo e l'altezza della pagina
 export function PageWrapper({ children }) {
-    return (
-        // Div con altezza minima viewport e sfondo gradiente
-        <div className="min-h-dvh bg-linear-to-b from-cyan-200 to-white to-[60vh]">
-            {/* Renderizza tutti i componenti figli */}
-            {children}
-        </div>
-    )
+  return (
+    // Div con altezza minima viewport e sfondo gradiente
+    <div className="min-h-dvh bg-linear-to-b from-cyan-200 to-white to-[60vh]">
+      {/* Renderizza tutti i componenti figli */}
+      {children}
+    </div>
+  );
 }
 
 /*
