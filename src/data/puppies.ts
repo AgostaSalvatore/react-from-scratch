@@ -1,13 +1,5 @@
-type Puppy = {
-    // Identificatore univoco del cucciolo
-    id: number;
-    // Nome del cucciolo
-    name: string;
-    // Caratteristica distintiva del cucciolo
-    vibe: string;
-    // Percorso dell'immagine del cucciolo
-    imagePath: string;
-}
+// Importazione del tipo Puppy dalla cartella types
+import { type Puppy } from "../types";
 
 // Array di dati contenente le informazioni di tutti i cuccioli disponibili
 export const puppies: Puppy[] = [
@@ -76,6 +68,12 @@ export const puppies: Puppy[] = [
 /*
  * File: puppies.ts
  * Descrizione: Questo file contiene i dati statici di tutti i cuccioli disponibili nell'applicazione.
- * Ogni oggetto puppy ha un id univoco, un nome, una caratteristica distintiva e il percorso dell'immagine.
+ * Ogni oggetto puppy ha un id univoco, un nome, una caratteristica distintiva (vibe) e il percorso dell'immagine.
+ * 
+ * STRUTTURA AGGIORNATA:
+ * - Il tipo Puppy è stato spostato in src/types/index.ts per una migliore organizzazione
+ * - Importiamo il tipo usando "import { type Puppy }" per chiarezza
+ * - Questo permette di centralizzare tutti i tipi TypeScript in un unico posto
+ * 
  * Questi dati vengono utilizzati dal componente PuppiesList per visualizzare la griglia dei cuccioli.
  */

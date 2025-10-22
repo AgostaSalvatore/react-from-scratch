@@ -1,5 +1,5 @@
 // Componente che mostra la lista dei cuccioli preferiti
-export function Shortlist() {
+export function ShortList() {
     return (
         <div>
             {/* Titolo della sezione con icona cuore */}
