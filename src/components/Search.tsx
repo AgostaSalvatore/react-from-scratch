@@ -42,7 +42,7 @@ export function Search() {
 }
 
 /*
- * File: Search.jsx
+ * File: Search.tsx
  * Descrizione: Componente per la funzionalità di ricerca dei cuccioli.
  * Permette agli utenti di cercare cuccioli in base alle loro caratteristiche.
  * Include un campo di input con placeholder e un pulsante per cancellare la ricerca.

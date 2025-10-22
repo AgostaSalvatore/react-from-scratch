@@ -10,7 +10,7 @@ export function PageWrapper({ children }) {
 }
 
 /*
- * File: PageWrapper.jsx
+ * File: PageWrapper.tsx
  * Descrizione: Componente wrapper che fornisce il layout base della pagina.
  * Applica un'altezza minima pari al viewport e uno sfondo con gradiente lineare
  * dal ciano al bianco, creando un effetto visivo piacevole per l'intera applicazione.

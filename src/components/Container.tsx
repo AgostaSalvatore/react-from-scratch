@@ -10,7 +10,7 @@ export function Container({ children }) {
 }
 
 /*
- * File: Container.jsx
+ * File: Container.tsx
  * Descrizione: Componente di layout che fornisce un contenitore centrato con larghezza massima.
  * Applica padding responsivo e centra il contenuto nella pagina per una migliore leggibilità
  * su schermi di diverse dimensioni. È un pattern comune per limitare la larghezza del contenuto.

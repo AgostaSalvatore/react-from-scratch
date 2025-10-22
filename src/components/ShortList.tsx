@@ -93,7 +93,7 @@ export function ShortList() {
 }
 
 /*
- * File: Shortlist.jsx
+ * File: ShortList.tsx
  * Descrizione: Componente che visualizza la lista dei cuccioli preferiti dell'utente.
  * Mostra Chase e Leia come esempi di cuccioli già aggiunti ai preferiti.
  * Ogni elemento include miniatura, nome e pulsante per rimuovere dai preferiti.

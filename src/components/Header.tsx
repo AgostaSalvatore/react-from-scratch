@@ -30,7 +30,7 @@ export function Header() {
 }
 
 /*
- * File: Header.jsx
+ * File: Header.tsx
  * Descrizione: Componente header che contiene il branding e l'introduzione dell'applicazione.
  * Include il logo con effetti hover interattivi, il nome del brand e una sezione hero
  * con titolo e sottotitolo che introducono l'utente al contenuto della pagina.

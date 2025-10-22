@@ -54,7 +54,7 @@ export function NewPuppyForm() {
 }
 
 /*
- * File: NewPuppyForm.jsx
+ * File: NewPuppyForm.tsx
  * Descrizione: Componente form per permettere agli utenti di aggiungere nuovi cuccioli.
  * Include campi per nome, caratteristica e foto del profilo (quest'ultimo è disabilitato).
  * Il form ha uno stile coerente con il resto dell'applicazione e include stati di focus
