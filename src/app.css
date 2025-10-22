@@ -1,5 +1,15 @@
+/* Importazione del framework CSS Tailwind */
 @import 'tailwindcss';
 
+/* Configurazione del tema personalizzato */
 @theme{
+    /* Font family predefinito per l'intera applicazione */
     --default-font-family: 'Inter', sans-serif;
 }
+
+/*
+ * File: app.css
+ * Descrizione: File CSS principale dell'applicazione che importa Tailwind CSS
+ * e definisce le configurazioni del tema. Imposta Inter come font predefinito
+ * per garantire una tipografia moderna e leggibile in tutta l'applicazione.
+ */

@@ -1,10 +1,14 @@
+// Componente per la ricerca dei cuccioli basata sulle caratteristiche
 export function Search() {
     return (
         <div>
+            {/* Label per il campo di ricerca */}
             <label htmlFor="search" className="font-medium">
                 Search for a character trait
             </label>
+            {/* Container per input e pulsante */}
             <div className="mt-2 flex items-center gap-4">
+                {/* Campo di input per la ricerca */}
                 <input
                     placeholder="playful..."
                     name="search"
@@ -12,7 +16,9 @@ export function Search() {
                     type="text"
                     className="w-full max-w-80 bg-white px-4 py-2 ring ring-black/5 focus:ring-2 focus:ring-cyan-500 focus:outline-none"
                 />
+                {/* Pulsante per cancellare la ricerca */}
                 <button className="inline-block rounded bg-cyan-300 px-4 py-2 pr-3! pl-2.5! font-medium text-cyan-900 hover:bg-cyan-200 focus:ring-2 focus:ring-cyan-500 focus:outline-none">
+                    {/* Icona X per cancellare */}
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={24}
@@ -34,3 +40,11 @@ export function Search() {
         </div>
     )
 }
+
+/*
+ * File: Search.jsx
+ * Descrizione: Componente per la funzionalità di ricerca dei cuccioli.
+ * Permette agli utenti di cercare cuccioli in base alle loro caratteristiche.
+ * Include un campo di input con placeholder e un pulsante per cancellare la ricerca.
+ * Attualmente è solo l'interfaccia utente, la logica di ricerca non è implementata.
+ */

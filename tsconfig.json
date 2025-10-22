@@ -1,0 +1,27 @@
+{
+    // Opzioni di configurazione del compilatore TypeScript
+    "compilerOptions": {
+        // Target di compilazione: utilizza le funzionalità JavaScript più recenti
+        "target": "esnext",
+        // Sistema di moduli: utilizza i moduli ES più recenti
+        "module": "esnext",
+        // Risoluzione dei moduli: utilizza la strategia Node.js
+        "moduleResolution": "node",
+        // Abilita l'importazione di helper da tslib per ridurre la dimensione del bundle
+        "importHelpers": true,
+        // Assicura che ogni file possa essere transpilato in modo isolato
+        "isolatedModules": true,
+        // Non emette file JavaScript (utile per progetti che usano bundler esterni)
+        "noEmit": true,
+        // Utilizza la nuova trasformazione JSX di React 17+
+        "jsx": "react-jsx"
+    },
+    "include": ["src"]
+}
+/*
+ * File: tsconfig.json
+ * Descrizione: File di configurazione TypeScript per il progetto React.
+ * Definisce le opzioni del compilatore per supportare React con JSX,
+ * moduli ES moderni e ottimizzazioni per lo sviluppo.
+ * La configurazione è ottimizzata per progetti React moderni con bundler esterni.
+ */

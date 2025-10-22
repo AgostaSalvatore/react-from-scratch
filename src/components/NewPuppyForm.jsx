@@ -1,8 +1,13 @@
+// Componente form per aggiungere un nuovo cucciolo alla lista
 export function NewPuppyForm() {
     return (
+        // Container del form con sfondo bianco e ombra
         <div className="mt-12 flex items-center justify-between bg-white p-8 shadow ring ring-black/5">
+            {/* Form principale per l'inserimento dati */}
             <form className="mt-4 flex w-full flex-col items-start gap-4">
+                {/* Griglia responsiva per i campi del form */}
                 <div className="grid w-full gap-6 md:grid-cols-3">
+                    {/* Campo per il nome del cucciolo */}
                     <fieldset className="flex w-full flex-col gap-1">
                         <label htmlFor="name">Name</label>
                         <input
@@ -12,6 +17,7 @@ export function NewPuppyForm() {
                             name="name"
                         />
                     </fieldset>
+                    {/* Campo per la caratteristica del cucciolo */}
                     <fieldset className="flex w-full flex-col gap-1">
                         <label htmlFor="trait">Personality trait</label>
                         <input
@@ -21,6 +27,7 @@ export function NewPuppyForm() {
                             name="trait"
                         />
                     </fieldset>
+                    {/* Campo per l'immagine del profilo (attualmente disabilitato) */}
                     <fieldset
                         disabled=""
                         className="col-span-2 flex w-full cursor-not-allowed flex-col gap-1 opacity-50"
@@ -34,6 +41,7 @@ export function NewPuppyForm() {
                         />
                     </fieldset>
                 </div>
+                {/* Pulsante per inviare il form */}
                 <button
                     className="mt-4 inline-block rounded bg-cyan-300 px-4 py-2 font-medium text-cyan-900 hover:bg-cyan-200 focus:ring-2 focus:ring-cyan-500 focus:outline-none"
                     type="submit"
@@ -44,3 +52,11 @@ export function NewPuppyForm() {
         </div>
     )
 }
+
+/*
+ * File: NewPuppyForm.jsx
+ * Descrizione: Componente form per permettere agli utenti di aggiungere nuovi cuccioli.
+ * Include campi per nome, caratteristica e foto del profilo (quest'ultimo è disabilitato).
+ * Il form ha uno stile coerente con il resto dell'applicazione e include stati di focus
+ * e hover per una migliore esperienza utente.
+ */
